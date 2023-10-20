@@ -108,3 +108,31 @@ h2 {
 .info-box-text {
   text-align: center;
 }
+
+/* Quote Section Styles */
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  width: 600px;
+}
+
+.quote-footer {
+  align-self: flex-end;
+  font-weight: 700;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
