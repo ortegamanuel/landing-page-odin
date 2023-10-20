@@ -1,6 +1,9 @@
 * {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
+
+/* Header Styles */
 
 nav {
   display: flex;
@@ -31,4 +34,43 @@ a {
   color: #f9faf8;
   font-size: 24px;
   margin-left: 16px;
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #1f2937;
+  padding: 100px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 300px;
+  color: white;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  margin-right: auto;
+  padding: 5px 24px;
 }
