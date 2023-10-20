@@ -74,3 +74,37 @@ h1 {
   margin-right: auto;
   padding: 5px 24px;
 }
+
+/* Info Section Styles */
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  padding: 32px 0 0 0;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  border-radius: 10px;
+}
+
+.info-box-img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-box-text {
+  text-align: center;
+}
